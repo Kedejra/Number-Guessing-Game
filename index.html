@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+     <!--Font awesome-->
+     <script src="https://kit.fontawesome.com/7b36db9d89.js" crossorigin="anonymous"></script>
+    <title>Guess My Number</title>
+</head>
+<body id="body" class="blue-grey darken-4">
+    <div class="container">
+    <div class="row">
+      
+
+        <div  class="card medium indigo lighten-5 ">
+            <div  class="card-content">
+            <h1 class="card-title center-align">Guess My Number Game</h1>
+            <p class="center-align">Guess a number between <span class="min-num">1</span> and <span class="max-num">10</span></p>
+            <form id="game">
+                <div class="input-field col s8 offset-s2">
+                <input type="number" id="entry" placeholder="Enter your guess..">
+                </div>
+                <div class="row col s6 offset-s5">
+                <input type="submit" value="PLAY" id="play-btn" class="btn-large orange darken-2 ">
+            </div>
+            </form>
+            <p class="message col s12 offset-s4 300"></p>
+            </div>
+            
+        </div>
+    </div>
+</div>
+      <!--JQuery CDN-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+     <!-- Project Javascript file -->
+     <script src="app.js"></script>
+</body>
+</html>
